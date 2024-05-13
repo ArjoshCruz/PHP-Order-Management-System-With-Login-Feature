@@ -1,0 +1,152 @@
+body {
+    background-image: url(imgs/bg-neon.png);
+    background-size: cover;                    
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.main-div{
+    max-width: 600px;
+    background-color: rgb(244, 244, 244);
+    margin: auto;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+    box-shadow: 0 0 40px rgb(222, 166, 0);
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 116px;
+    padding: 30px 0 5px 0;
+}
+
+.arjosh-cafe {
+    color: rgb(222, 166, 0);
+}
+
+h2 {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 30px 0;
+}
+
+.echo-user{
+    color: rgb(0, 89, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.echo-user span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-div {
+    border-top: 2px dashed gray;
+    border-bottom: 2px dashed gray;
+    padding: 30px;
+    text-align: start;
+}
+
+h3 {
+    display: block;
+    margin: 0 220px;
+
+    padding: 0px 0 30px 0;
+    font-size: 30px;
+}
+
+ul {
+    font-size: 20px;
+    display: block;
+    margin: 0 155px;
+    width: 300px;
+}
+
+.choose-div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    margin: 40px 0 20px 116px;
+}
+
+.dropdown {
+    padding: 5px 20px;
+    margin-left: 10px;
+}
+
+.quantity-div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0 20px 116px;
+}
+
+.quantity-textbox {
+    padding: 5px 70px 5px 3px;
+    margin-left: 10px;
+}
+
+.cash-div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0 5px 116px;
+}
+
+.cash-textbox {
+    padding: 5px 70px 5px 3px;
+    margin-left: 36px;
+}
+
+.submit-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-textbox, .cash-textbox, .dropdown {
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 2px 2px gray;
+}
+
+.submit-button {
+    background-color: rgb(255, 54, 54);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 2px gray;
+    border-radius: 30px;
+    padding: 20px 180px;
+    margin: 50px 0 20px 0;
+}
+
+.logout-div {
+    display: flex;
+}
+
+.logoutBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px gray;
+
+    padding: 8px;
+    margin: 30px auto 30px ;
+}
+
